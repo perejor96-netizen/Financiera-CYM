@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Financiera C & M</title>
+</head>
+<body>
+<script>
+fetch("https://wegfldjkruzctgenqwbd.supabase.co/functions/v1/financiera-cym/")
+  .then(r => r.text())
+  .then(h => {
+    document.open();
+    document.write(h);
+    document.close();
+  })
+  .catch(() => {
+    document.body.innerHTML="<h2>Financiera C & M</h2><p>No se pudo cargar la aplicación.</p>";
+  });
+</script>
+</body>
+</html>
