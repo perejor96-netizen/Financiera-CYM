@@ -1,0 +1,19 @@
+{
+  "name": "Financiera C & M",
+  "short_name": "C&M",
+  "description": "Sistema de gestión financiera",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f6fa",
+  "theme_color": "#071a36",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
